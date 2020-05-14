@@ -14,8 +14,7 @@ npm start
 
 **Örnek Görüntü**
 
-
-
+<img src="https://raw.githubusercontent.com/YASIINN/reactyarisangrafik/master/src/ekrangoruntusu.png" width="600">
 
 **Yapabildikleri**
 
