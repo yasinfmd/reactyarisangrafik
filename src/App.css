@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+.area {
+    position: relative;
+    width: 800px;
+    height: 800px;
+    background-color: #fefefe;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.year{
+    text-align: center;
+    font-weight: bold;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.item img{
+    max-width: 50px;
+    padding: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.item {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    top: 100px;
+    left: 5px;
+    position: absolute;
+    transition: all 1s ease;
 }
-
-.App-link {
-  color: #61dafb;
+.item p {
+    transition: all 1s ease-in-out;
+    text-align: center;
+    font-weight: bold !important;
+    color:black;
+    height: 100%;
+    border-radius: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.item i {
+    margin-left: 10px;
+    font-weight: bold !important;
+    font-size: 15px !important;
+    font-family: "Yu Gothic" !important;
 }
