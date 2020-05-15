@@ -1,4 +1,4 @@
-Bu Örnek Çekino İçin Hazırlanmıştır
+
 
 ## Yarınşan Grafikler
 
